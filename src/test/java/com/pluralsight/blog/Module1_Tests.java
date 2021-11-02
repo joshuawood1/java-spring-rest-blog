@@ -170,6 +170,7 @@ public class Module1_Tests {
     }
 
     @Test
+    @RestResource(rel="contains-title", path="containsTitle")
     public void task_6() {
         Method method = null;
         try {
